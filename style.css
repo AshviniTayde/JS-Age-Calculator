@@ -8,7 +8,7 @@
 .container {
   width: 100%;
   min-height: 100vh;
-  background: linear-gradient(135deg, #4203a9, #90bafc);
+  background: linear-gradient(135deg, #0393a9, #d2dcec);
   color: #fff;
   padding: 10px;
   display: flex;
@@ -24,10 +24,13 @@
 
 .calculator h1 {
   font-size: 60px;
+  color:#ffff59
 }
 
 .calculator h1 span {
-  color: #ffff6f;
+    background: linear-gradient(to right,#67ff59,white);
+    background-clip: text;
+    color: transparent;
 }
 
 .inputbox {
@@ -38,6 +41,8 @@
   display: flex;
   align-items: center;
   gap: 10px;
+  box-shadow: 9px 6px 25px rgba(249, 28, 28, 0.4);
+
 }
 
 .inputbox input {
